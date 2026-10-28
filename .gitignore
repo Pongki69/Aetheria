@@ -1,0 +1,31 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.continue/
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# Dependencies and generated output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Private runtime data and uploads
+backend/data/
+backend/uploads/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Unrelated installers and system files
+*.exe
+*.msi
+.DS_Store
+Thumbs.db
